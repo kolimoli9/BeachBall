@@ -1,0 +1,30 @@
+body{
+    background: black;
+}
+.middleMeThis{
+    position: absolute;
+    top: 40%; 
+    left: 44%;
+}
+.beachBall{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: black;
+    position: relative;
+    animation-name: ball;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+    }
+    @keyframes ball {
+    0%   {background-color:black; left:400px; top:400px;}
+    25%  {background-color:white; left:1000px; top:600px;}
+    50%  {background-color:black; left:1200px; top:400px;}
+    75%  {background-color:white; left:1000px; top:0px;}
+    100% {background-color:black; left:400px; top:400px;}
+    }
+.middleMeThis1{
+    position: relative;
+    left: 44%;
+    color: brown;
+}
